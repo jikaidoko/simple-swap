@@ -1,5 +1,6 @@
 # Simple Swap
 ## An elementary Automated Market Maker (AMM) Liquidity Pool
+![](https://github.com/jikaidoko/simple-swap/blob/readme-images/simpleSwap.PNG)
 ### With five basic functions
 - addLiquidity(): Adds liquidity to the pool, minting LP tokens to the provider.
 - removeLiquidity(): Removes liquidity from the pool, burning LP tokens and returning underlying tokens.
@@ -8,6 +9,7 @@
 - getAmountOut(): Calculates the amount of output tokens received for a given amount of input tokens.
 
 #### Add Liquidity
+
 This function allows users to deposit a pair of tokens (tokenA and tokenB) into the liquidity pool.
 The amount of LP tokens minted is calculated based on the square root of the product of desired amounts for the first liquidity provider,
 and proportionally to existing reserves for subsequent providers.
